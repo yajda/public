@@ -1,0 +1,339 @@
+/*头部css*/
+#top_logo_img {
+    height: 32px;
+    margin-left: 70px;
+    margin-top: 9px;
+    float: left;
+}
+
+#top_logo_icon {
+    height: 20px;
+    width: 0;
+    display: inline-block;
+    border-left: 1px solid rgb(193, 193, 193);
+    margin-top: 17px;
+    float: left;
+}
+
+#top_logo_span {
+    line-height: 20px;
+    font-size: 18px;
+    color: rgb(101, 101, 101);
+    margin-top: 17px;
+    display: block;
+    float: left;
+    margin-left: 4px;
+}
+
+#top_right_content {
+    width: 800px;
+    height: 24px;
+    padding: 13px 20px;
+    float: right;
+    line-height: 24px;
+}
+
+#top_right_content a {
+    display: block;
+    width: 60px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    float: right;
+    padding-left: 27px;
+    background: url("../images/outlogin.png") no-repeat 100%;
+}
+
+#top_right_content span {
+    display: block;
+    line-height: 24px;
+    color: #656565;
+    float: right;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+#top_right_content span em {
+    color: rgb(34, 174, 153);
+}
+
+#top_right_content h1 {
+    width: 330px;
+    color: #656565;
+    font-size: 12px;
+    float: right;
+}
+
+#left_nav {
+    line-height: 45px;
+    background: #373737;
+    color: rgb(239, 240, 241);
+    font-size: 16px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+#left_nav_content {
+    width: 170px;
+    margin: 5px auto 0;
+    min-height: 200px;
+}
+
+#left_nav_content dl dd {
+    padding-bottom: 10px;
+}
+
+#left_nav_content dl dd a {
+    color: rgb(144, 144, 144);
+    display: block;
+    width: 130px;
+    padding-left: 40px;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: 10px 50%;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#left_nav_content dl dd > a:hover {
+    background-color: #FFF;
+}
+
+#left_nav_content dl dd a.checked {
+    background-color: #c3bbb0;
+    color: #FFF;
+}
+
+#left_nav_content dl dd a.children i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/nav/add.png") no-repeat 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#left_nav_content dl dd a.checked.children i {
+    background-image: url("../images/nav/user1.png");
+}
+
+#nav1 {
+    background-image: url(../images/nav/user1.png);
+}
+
+#nav1.checked {
+    background-image: url(../images/nav/user2.png);
+}
+
+#nav2 {
+    background-image: url(../images/nav/images1.png);
+}
+
+#nav2.checked {
+    background-image: url(../images/nav/img2.png);
+}
+
+#nav3 {
+    background-image: url(../images/nav/group1.png);
+}
+
+#nav3.checked {
+    background-image: url(../images/nav/group2.png);
+}
+
+#nav4 {
+    background-image: url(../images/nav/lead1.png);
+}
+
+#nav4.checked {
+    background-image: url(../images/nav/lead2.png);
+}
+
+#nav5 {
+    background-image: url(../images/nav/05.png);
+}
+
+#nav5.checked {
+    background-image: url(../images/nav/05_.png);
+}
+
+#nav6 {
+    background-image: url(../images/nav/06.png);
+}
+
+#nav6.checked {
+    background-image: url(../images/nav/06_.png);
+}
+
+#nav7 {
+    background-image: url(../images/nav/07.png);
+}
+
+#nav7.checked {
+    background-image: url(../images/nav/07_.png);
+}
+
+#nav8 {
+    background-image: url(../images/nav/08.png);
+}
+
+#nav8.checked {
+    background-image: url(../images/nav/08_.png);
+}
+
+#nav9 {
+    background-image: url(../images/nav/09.png);
+}
+
+#nav9.checked {
+    background-image: url(../images/nav/09_.png);
+}
+
+#nav10 {
+    background-image: url(../images/nav/10.png);
+}
+
+#nav10.checked {
+    background-image: url(../images/nav/10_.png);
+}
+
+#nav11 {
+    background-image: url(../images/nav/11.png);
+}
+
+#nav11.checked {
+    background-image: url(../images/nav/11_.png);
+}
+
+#nav12 {
+    background-image: url(../images/nav/12.png);
+}
+
+#nav12.checked {
+    background-image: url(../images/nav/12_.png);
+}
+
+#nav13 {
+    background-image: url(../images/nav/13.png);
+}
+
+#nav13.checked {
+    background-image: url(../images/nav/13_.png);
+}
+
+#nav14 {
+    background-image: url(../images/nav/14.png);
+}
+
+#nav14.checked {
+    background-image: url(../images/nav/14_.png);
+}
+
+#nav15 {
+    background-image: url(../images/nav/15.png);
+}
+
+#nav15.checked {
+    background-image: url(../images/nav/15_.png);
+}
+
+#nav16 {
+    background-image: url(../images/nav/16.png);
+}
+
+#nav16.checked {
+    background-image: url(../images/nav/16_.png);
+}
+
+#nav17 {
+    background-image: url(../images/nav/17.png);
+}
+
+#nav17.checked {
+    background-image: url(../images/nav/17_.png);
+}
+
+#nav18 {
+    background-image: url(../images/nav/18.png);
+}
+
+#nav18.checked {
+    background-image: url(../images/nav/18_.png);
+}
+
+.nav-children-ul {
+    display: none;
+    min-width: 170px;
+}
+
+ul.nav-children-ul li {
+    color: #FFF;
+    font-size: 18px;
+    list-style: disc;
+    width: 140px;
+    margin-left: 40px;
+}
+
+ul.nav-children-ul li a {
+    color: #FFF !important;
+    font-size: 12px;
+    width: 140px !important;
+    padding-left: 0 !important;
+}
+
+ul.nav-children-ul li a:hover {
+    color: #2AAE9A !important;
+}
+
+ul.nav-children-ul li:hover {
+    color: #2AAE9A;
+}
+
+ul.nav-children-ul li.checked {
+    color: #2AAE9A;
+}
+
+ul.nav-children-ul li.checked a {
+    color: #2AAE9A !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

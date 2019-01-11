@@ -1,0 +1,261 @@
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    background-color: #E8F2EF;
+}
+.navigationBar{
+    background-color: #45BF81;
+    height: 44px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+}
+/*****************************************案例*********************************************/
+.anliMid{
+    margin-bottom: 50px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.anliMid img{
+    display: block;
+    width: 100%;
+    height: 2.32rem;
+}
+.anliMid h1{
+    font-size: 0.22rem;
+    font-weight: normal;
+    margin: 10px 15px 5px;
+}
+.anliMid h2{
+    font-size: 0.20rem;
+    color: #B0B0B0;
+    font-weight: normal;
+    margin: 0px 15px;
+}
+.anliMid span{
+    display: block;
+    background-color: #45BF81;
+    font-size: 0.20rem;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    width: 1.0rem;
+}
+.anliMid p{
+    font-size: 0.20rem;
+    color: #727272;
+    margin: 10px 15px;
+}
+.anliFooter{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border-top:5px solid #E8F2EF;
+}
+.anliFooter span{
+    float: left;
+    display: block;
+    width: 1.88rem;
+    height: 100%;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 0.25rem;
+    color: #B4B4B4;
+}
+.anliFooter span:nth-child(1){
+    background: url("../images/discover_zan.png") no-repeat;
+    background-size: 25px 25px;
+    background-position: 25% center;
+}
+.anliFooter span:nth-child(2){
+    background: url("../images/discover_collect.png") no-repeat;
+    background-size: 25px 25px;
+    background-position: 25% center;
+}
+.anliFooter span:nth-child(3){
+    background: url("../images/share.png") no-repeat;
+    background-size: 25px 25px;
+    background-position: 50% center;
+}
+/*****************************************律师*********************************************/
+.lawyerMid{
+    margin-bottom: 50px;
+    background-color: white;
+}
+.lawyerMidTop{
+    background-color: #45BF81;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    overflow: hidden;
+}
+.lawyerMidTopAvatar{
+    display: block;
+    margin: 10px auto 5px;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #E8F2EF;
+    border-radius: 50px;
+}
+.lawyerMidTopName{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+.lawyerMidTopLevel{
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 7px 0px;
+}
+.lawyerMidTopOnline{
+    display: block;
+    width: 40px;
+    height: 20px;
+    margin: 5px auto 15px;
+}
+.lawyerMidTopBottom{
+    background-color: white;
+    height: 50px;
+}
+.lawyerMidTopBottom span{
+    font-size: 15px;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 50%;
+}
+.lawyerMidTopBottom span:nth-child(1){
+    background-color: #45BF81;
+    color: white;
+    border-top: 1px solid white;
+}
+.lawyerMidTopBottom span:nth-child(2){
+    background-color: white;
+    color: #45BF81;
+}
+.lawyerMidBottom div{
+    background-color: white;
+    border-top:5px solid #E8F2EF;
+    padding-bottom: 5px;
+}
+.lawyerMidBottom h1{
+    margin: 10px 15px;
+    font-size: 0.26rem;
+}
+.lawyerMidBottom p{
+    margin: 10px 15px;
+    font-size: 0.22rem;
+    color: #B4B4B4;
+}
+.lawyerFooter{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border-top:5px solid #E8F2EF;
+}
+.lawyerFooter span{
+    font-size: 15px;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 50%;
+}
+.lawyerFooter span:nth-child(1){
+    background-color: #45BF81;
+    color: white;
+}
+.lawyerFooter span:nth-child(2){
+    background-color: white;
+    color: #45BF81;
+    border-top: 1px solid #45BF81;
+}
+/*****************************************下载*********************************************/
+.downloadBg{
+    width: 100%;
+    height: 100%;
+}
+.downloadButton{
+    background-color: #45BF81;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

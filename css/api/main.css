@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* 初始化 */
+html { width: 100%; height: 100%;font-size:100px}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, blockquote { margin: 0; padding: 0; }
+body { font-family: Microsoft Yahei, '微软雅黑'; font-weight: 300; font-size: 0.23rem; color:#fff;width: 100%; padding: 0; margin: 0; background-color: rgb(241, 242, 243); height: 100%;}
+table { border-collapse: collapse; border-spacing: 0; font-size: inherit;}
+input, img { vertical-align: middle; border:none; }
+a { text-decoration: none; }
+a:link, a:visited, a:active, a:hover { text-decoration: none; color: #fff; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var, i{ font-style: normal; font-weight: 300; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 300; }
+q:before, q:after { content: ''; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: 300; }
+img, object { max-width: 100%; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {display: block;}
+input[type="text"], input[type="password"], input[type="number"], input[type="button"] { -webkit-appearance: none; -moz-appearance: none; /* mobile firefox too! */}
+ul, ol, dl,li{	list-style:none;}
+a {	text-decoration:none;}
+input::-webkit-inner-spin-button {-webkit-appearance: none;}
+input::-webkit-outer-spin-button {-webkit-appearance: none;}
+input::-ms-clear { display: none; }
+input::-ms-reveal { display: none; }
+input,select,textarea{outline: none;}
+textarea{resize: none;}
+input[type="search"]{-webkit-appearance:none;}
+input::-webkit-search-cancel-button {display: none;}
+*::-webkit-input-placeholder{color: #ABABAB;}
+*:-moz-placeholder{color: #ABABAB;}
+*::-moz-placeholder{color: #ABABAB;}
+*:-ms-input-placeholder{color: #ABABAB;}
+select {appearance: none; -moz-appearance: none; -webkit-appearance: none; padding-left: 0.1rem; padding-right: 0.4rem; }
+
+/*公共部分*/
+.clearfixd:after { content: '\20'; display: block; height: 0; clear: both; }
+.clearfixd { *zoom:1; overflow:hidden;}
+.hidden{display:none !important;}
+.nomarginleft{margin-left:0}
+.clear{clear:both !important;}
+.dialog{width:100%; height:100%; position:fixed; top:0; background:rgba(0,0,0,0.3); z-index:11;}
+.alert_dialog{position:fixed; width:6.4rem; height:100%; background-color:transparent; text-align:center; top:0; z-index:11;}
+.show_alert{display:inline-block; padding:0.15rem 0.3rem; max-width:5rem; font-size:0.22rem; text-align: center; line-height:0.4rem; color:#fff; background:rgba(0, 0, 0, 1); box-shadow: 0 0 0.01rem 0.01rem rgba(70, 70, 70, 0.7); border-radius:0.06rem; margin-top:4.5rem; z-index:3;transition:width 0.5s;}
+.alert_success{padding-top: 0.7rem; background-image: url("../../img/zh_07.png"); background-repeat: no-repeat; background-position: 50% 0.2rem; background-size:0.4rem;}
+.alert_error{padding-top: 0.7rem; background-image: url("../../img/zh_10.png"); background-repeat: no-repeat; background-position: 50% 0.2rem; background-size:0.4rem;}
+
+#web_view{padding: 0 0.1rem; font-size: 0.23rem; line-height: 0.38rem; color: #666;}
+#web_view img{width: 100%; height: auto; padding: 0.1rem 0;}
+.learn-title{color: #333; font-size: 0.3rem; line-height: 0.4rem; padding: 0.1rem 0;}
+.learn-time{text-align: right; color: #ABABAB; font-size: 0.22rem; line-height: 0.4rem;}
+
+header{height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 0.28rem; color: #FFF; background: rgb(111, 155, 252);}
+.head{height: 0.8rem;}
+.common-box{height: 0.6rem; padding: 0.1rem 0.2rem; background: #FFF; margin-top: 0.15rem;}
+.common-box input{width: 100%; height: 0.6rem; font-size: 0.25rem;}
+#mobile_code{width: 3rem;}
+#agreement{padding: 0.2rem 0.15rem; font-size: 0.21rem; color: #999; line-height: 0.24rem;}
+#agreement label:before{content: ""; display: block; float: left; margin-right: 0.1rem; width: 0.24rem; height: 0.24rem; background: url("../../img/checkbox_blue_unchecked.png") no-repeat center; background-size: 0.24rem;}
+#agreement label.checked:before{background-image: url("../../img/checkbox_blue_checked.png");}
+#agreement a{color: #6F9BFC;}
+#reg_btn{display: block; width: 3.6rem; height: 0.7rem; line-height: 0.7rem; font-size: 0.26rem; color: #FFF; margin: 1.2rem auto 0; text-align: center; background: #6F9BFC; border-radius: 0.1rem;}
+#getCode{display: block; width: 1.6rem; float: right; height: 0.5rem; line-height: 0.5rem; border: 0.02rem solid #6F9BFC; color: #6F9BFC; font-size: 0.23rem; border-radius: 0.5rem; text-align: center; margin-top: 0.03rem;}
+
+#reg_success{position: fixed; width: 100%; height: 100%; left: 0; top: 0; background: url("../../img/bj@1x.png") no-repeat; background-size: 100% auto;}
+#download_btn{width: 5.2rem; height: 0.96rem; background: url("../../img/download@1x.png") no-repeat; background-size: 100% auto; position: absolute; left: 0.6rem; bottom: 2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
